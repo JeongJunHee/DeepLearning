@@ -45,22 +45,3 @@ with tf.Session() as sess:
 
     for p, y in zip(pred, y_data.flatten()):
         print("[{}] Prediction : {} True y : {}".format(p == int(y), p, int(y)))
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
